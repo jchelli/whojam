@@ -1,9 +1,9 @@
 /*$baseFontFamily: Oxygen;
 @import url(http://fonts.googleapis.com/css?family=Oxygen);*/
 
-$btnPrimaryBackground: green;
-$navbarBackgroundHighlight: white;
-$navbarBackground: white;
+$btnPrimaryBackground: blue;
+$navbarBackgroundHighlight: #232524;
+$navbarBackground: #232524;
 
 @import 'bootstrap';
 
@@ -14,10 +14,11 @@ body {
 @import 'bootstrap-responsive';
 
 /* enlève l'ombre sous la navbar */
-.navbar-inner {
+/*.navbar-inner {
 	@include box-shadow(none !important);
 	border: 0;
 }
+*/
 
 .footer {
 
